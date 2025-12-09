@@ -340,3 +340,15 @@ The simulated behaviours map to the following ATT\&CK techniques:
 
 
 
+---
+
+## Screenshots
+
+### Sysmon logging Windows events
+![Sysmon Operational Log](screenshots/03-sysmon-operational-log.png.png)
+
+### Splunk detection – Encoded PowerShell
+![Splunk encoded PowerShell detection](screenshots/06-splunk-encoded-powershell-detection.png.png)
+
+### Splunk detection – PowerShell HTTP → Akamai
+![Splunk PowerShell HTTP Akamai](screenshots/08_splunk_powershell_http_akamai.png.png)
