@@ -1,1 +1,6 @@
-index=main source="WinEventLog:Microsoft-Windows-Sysmon/Operational" "powershell.exe\" "-enc"
+index=main source="WinEventLog:Microsoft-Windows-Sysmon/Operational"
+EventCode=1
+Image="*\\powershell.exe"
+CommandLine="* -enc *"
+| table _time, host, User, ParentImage, CommandLine
+| sort -_time
